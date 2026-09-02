@@ -1,0 +1,93 @@
+{
+  "id": "p3-canary-cinder-and-oak",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "cinder-and-oak",
+  "layout": "commerce",
+  "surfaceModel": "editorial interiors commerce",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-cinder-and-oak.xlpha.com/",
+  "stack": "wordpress-woocommerce-classic",
+  "install": "both",
+  "pageCount": 8,
+  "representativePaths": [
+    "/",
+    "/collections/bath-lighting/",
+    "/products/marlow-double-sconce/",
+    "/journal/mixing-aged-brass-and-blackened-steel/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Cinder & Oak | Decorative lighting, room edits, and designer trade support",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/",
+      "quirks": [
+        "room-edit-loop",
+        "trade-to-journal-loop"
+      ],
+      "eyebrow": "Decorative lighting and room-led interiors"
+    },
+    {
+      "route": "/collections/bath-lighting/",
+      "title": "Bath lighting collection | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/collections/bath-lighting/",
+      "quirks": [
+        "facet-query-links",
+        "collection-to-room-loop"
+      ],
+      "eyebrow": "Bathroom lighting collection"
+    },
+    {
+      "route": "/products/marlow-double-sconce/",
+      "title": "Marlow double sconce | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/collections/bath-lighting/",
+      "quirks": [
+        "product-to-collection-canonical",
+        "editorial-loop"
+      ],
+      "eyebrow": "Flagship product detail"
+    },
+    {
+      "route": "/trade-program/",
+      "title": "Trade program | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/trade-program/",
+      "quirks": [
+        "trade-to-catalog-loop",
+        "shared-copy"
+      ],
+      "eyebrow": "Designer trade support"
+    },
+    {
+      "route": "/journal/mixing-aged-brass-and-blackened-steel/",
+      "title": "Mixing aged brass and blackened steel without flattening the room | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/journal/mixing-aged-brass-and-blackened-steel/",
+      "quirks": [
+        "journal-to-collection-loop",
+        "shared-intro-copy"
+      ],
+      "eyebrow": "Journal story"
+    },
+    {
+      "route": "/rooms/powder-room-edit/",
+      "title": "Powder room edit | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/rooms/powder-room-edit/",
+      "quirks": [],
+      "eyebrow": "Room edit"
+    },
+    {
+      "route": "/shipping-and-returns/",
+      "title": "Shipping and returns | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/shipping-and-returns/",
+      "quirks": [],
+      "eyebrow": "Support and fulfillment"
+    },
+    {
+      "route": "/showrooms/ballard/",
+      "title": "Ballard showroom | Cinder & Oak",
+      "canonical": "https://p3-canary-cinder-and-oak.xlpha.com/showrooms/ballard/",
+      "quirks": [],
+      "eyebrow": "Seattle showroom"
+    }
+  ]
+}

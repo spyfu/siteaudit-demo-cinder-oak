@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sampleId": "cinder-oak",
+  "sourceFixtureId": "p3-canary-cinder-and-oak",
+  "nestedPath": "/collections/bath-lighting/",
+  "repository": "spyfu/siteaudit-demo-cinder-oak",
+  "cloudflarePagesProject": "siteaudit-demo-cinder-oak",
+  "productionBranch": "demo-01",
+  "publicUrl": "https://siteaudit-demo-cinder-oak.pages.dev/",
+  "editUrl": "https://github.com/spyfu/siteaudit-demo-cinder-oak/edit/demo-01/siteaudit-head.html"
+}
